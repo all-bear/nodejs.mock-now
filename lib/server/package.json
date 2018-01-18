@@ -1,0 +1,20 @@
+{
+  "name": "mock-now-server",
+  "version": "1.0.0",
+  "description": "Server layer for mock-now lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "now",
+    "mock-server",
+    "mockable"
+  ],
+  "author": "Oleh Biriukov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

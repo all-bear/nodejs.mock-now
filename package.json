@@ -1,0 +1,30 @@
+{
+  "name": "mock-now",
+  "version": "1.0.0",
+  "description": "Mock now your api and upload it via `now` in a few seconds",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mock-now": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "now",
+    "mock-server",
+    "mockable"
+  ],
+  "author": "Oleh Biriukov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/all-bear/nodejs.mock-now.git"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  }
+}

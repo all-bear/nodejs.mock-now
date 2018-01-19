@@ -25,6 +25,7 @@
     "url": "https://github.com/all-bear/nodejs.mock-now.git"
   },
   "dependencies": {
+    "cors": "^2.8.4",
     "fs-extra": "^5.0.0"
   }
 }

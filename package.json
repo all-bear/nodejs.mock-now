@@ -1,6 +1,6 @@
 {
   "name": "mock-now",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Mock now your api and upload it via `now` in a few seconds",
   "main": "index.js",
   "directories": {

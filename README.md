@@ -61,7 +61,9 @@ module.exports = {
 			"data": "JSON:GET Test"
 		},
 		"/user/default-html": "<div style=\"color: red;\">HTML:DEFAULT Test</div>",
-		"/user/post-html:post": "<div style=\"color: red;\">HTML:POST Test</div>"
+		"/user/post-html:post": function (req) {
+			return `<div style="color: red;">HTML:POST Test, Body: ${JSON.stringify(req.body)}</div>`;
+		}
 	}
 }
 ```
